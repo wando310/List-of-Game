@@ -1,0 +1,111 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  background: blueviolet;
+}
+.section {
+  width: 90rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0rem 2rem;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title img {
+  width: 5rem;
+}
+.title h1 {
+  color: rgb(255, 0, 0);
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px #000;
+}
+.conteiner-slide {
+  width: 82.3rem;
+  margin: 0.5rem;
+  display: flex;
+  overflow: hidden;
+  border-top: solid 2rem brown;
+  border-bottom: solid 2rem rgb(0, 187, 255);
+  border-radius: 30px;
+}
+.slide {
+  width: inherit;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellowgreen;
+  background: rgb(189, 120, 18);
+  margin: .1rem;
+  padding: .2rem;
+}
+.slide-show{
+  transition: ease 2s;
+}
+.slide img {
+  width: 20rem;
+  height: inherit;
+}
+.conteiner {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.conteiner .game {
+  width: 20rem;
+  height: 28rem;
+  margin: 0.5rem;
+  background: rgb(0, 0, 0);
+  border: solid 0.4rem rgba(21, 137, 199, 0.514);
+  transition: width 1s, height 1s, transform 1s;
+  border-radius: 10px;
+}
+.conteiner .game:hover {
+  cursor: pointer;
+  transform: translate(-38px, -38px);
+  box-shadow: 0px 0px 23px rgb(255, 255, 255);
+}
+.conteiner .game img {
+  width: inherit;
+  height: 12rem;
+  box-shadow: 0px 5px 13px rgb(131, 30, 156);
+}
+.conteiner h2 {
+  color: white;
+  margin: 1rem;
+}
+.conteiner .game .see-more {
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.see-more span {
+  color: rgb(192, 192, 192);
+  font-weight: 700;
+  color: rgb(0, 187, 255);
+  font-size: 1rem;
+}
